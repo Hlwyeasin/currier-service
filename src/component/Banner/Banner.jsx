@@ -1,35 +1,38 @@
 import React from 'react'
 import serviceimage from "../../assets/servicebannerpic.png";
+import { FaArrowRight } from "react-icons/fa";
+import Containner from '../Containner/Containner';
 
 const Banner = () => {
   return (
     <>
+    
           
-     <div className="bg-yellow-50  flex  overflow-hidden py-16 md:py-24 lg:py-32">
-        
-         <div className="md:w-1/2 text-center md:text-left z-10 ml-5">
+     <div className='bg-section'>
 
-         <h1 className=''>A trusted provider of courier services.</h1>
+            <Containner>
+                <div className='flex '>
 
-         <p>We deliver your products safely to your home in a reasonable time.</p>
+                    <div className="left pt-[260px] pb-[317px]">
+                        <h1 className='w-[510px] font-primary text-[#261134] text-[49px] leading-[120%]'>A trusted provider of <span className='font-black leading-[100%]'> courier services.</span></h1>
+                        <p className='w-[330px] font-primary text-[20px] leading-[120%] text-[#4D4D4D] pt-4 pb-[41px]'>We deliver your products safely to  your home in a reasonable time.</p>
+                        <div className='bg-primary font-secondery font-bold text-white rounded  py-3 px-[20px] inline-flex gap-x-3 items-center'>
+                            <a href="" >Get started</a>
+                                <FaArrowRight />
+                        </div>
+                    </div>
 
-          <button className="inline-flex items-center bg-orange-500 hover:bg-orange-600 text-white font-semibold py-3 px-6 rounded-lg shadow-md transition duration-300 ease-in-out">
-            Get started
-            <svg xmlns="http://www.w3.org/2000/svg" className="ml-2 h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
-            </svg>
-          </button>
-
+                    <div className="right py-[170px]">
+                        <img src={serviceimage} alt="" />
+                    </div>
+                </div>
+            </Containner>
         </div>
-
-        <div>
-        <img src={serviceimage} alt="" />
-        </div>
-
-     </div>
 
     </>
   )
 }
 
 export default Banner
+
+
