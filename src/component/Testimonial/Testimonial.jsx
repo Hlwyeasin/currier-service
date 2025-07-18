@@ -15,7 +15,7 @@ const Testimonial = () => {
                     <img src={testiimg} alt="" />
                 </div>
             <div className="text-center">
-              <h1 className="font-secondery font-bold text-[31px] leading-[100%] text-primary">
+              <h1 className="font-secondery font-bold text-[31px] leading-[100%] text-[#F95C19]">
                 TESTIMONIAL
               </h1>
               <h2 className="font-primary font-extrabold text-[49px] leading-[100%] pt-[11px] pb-[86px]">
@@ -24,7 +24,7 @@ const Testimonial = () => {
             </div>
           </div>
           <div className="w-[872px] mx-auto bg-white p-[38px] shadow-lg rounded-[16px]">
-            <h5 className="font-primary font-bold text-[25px] leading-[120%] text-primary">
+            <h5 className="font-primary font-bold text-[25px] leading-[120%] text-[#F95C19]">
               Fantastic service!
             </h5>
             <p className="font-primary text-base leading-[145%] pt-4 pb-6 text-[#464558] ">
@@ -39,7 +39,7 @@ const Testimonial = () => {
               say that they are really reliable.
             </p>
             <div className="flex justify-between">
-              <div className="flex gap-x-[7px] text-primary">
+              <div className="flex gap-x-[7px] text-[#F95C19]">
                 <FaStar />
                 <FaStar />
                 <FaStar />

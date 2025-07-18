@@ -60,10 +60,11 @@ const Services = () => {
                     data.map((item,i)=>(
 
                         <div key={i} className=' group w-[424px] bg-white rounded-[16px] pb-[49px] pt-[67px] px-[60px] hover:shadow-lg'>
-                          
+
                             <img src={item.img} alt="" className='mx-auto' />
                             <h2 className='font-primary font-extrabold text-[25px] leading-[100%] pt-[29px] pb-8 text-center'>{item.title}</h2>
                             <p className='font-primary text-base leading-[145%] text-[#7B7A8B] pb-[25px]'>{item.text}</p>
+                            
                             {
                                 item.ul.map((index,idx)=>(
                                     <div key={idx} className='flex items-center gap-x-[10px] '>
@@ -72,7 +73,7 @@ const Services = () => {
                                     </div>
                                 ))
                             }
-                            <div className='font-secondery font-bold text-[20px] leading-[100%] text-black border border-primary py-[12px] px-[96px] rounded-[5px] mt-[60px] group-hover:bg-primary group-hover:text-blue-600'>
+                            <div className='font-secondery font-bold text-[20px] leading-[100%] text-black border border-[#F95C19] py-[12px] px-[96px] rounded-[5px] mt-[60px] group-hover:bg-[#F95C19] group-hover:text-blue-600'>
                                 <a href="" >{item.button}</a>
                             </div>
                         </div>

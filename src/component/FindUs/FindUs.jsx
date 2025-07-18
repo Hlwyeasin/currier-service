@@ -22,17 +22,23 @@ const FindUs = () => {
             </h2>
           </div>
           <div className="flex gap-x-[23px]">
+
             <div className="left w-[760px]">
+            
+
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d466740.43256272946!2d88.70112687149458!3d23.945950922555614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39febca82f6a21ed%3A0x4040980d7c6874f8!2sKushtia%20District!5e0!3m2!1sen!2sbd!4v1752593351565!5m2!1sen!2sbd"
-                width="760"
-                height="428"
-                style={{ border: 0 }}
-                allowfullScreen=""
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1820.6493381698212!2d89.98168645131729!3d24.126146895840314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fe012e787bbf77%3A0xc16dbcaf1f49dd04!2sYeasin%20ViLa!5e0!3m2!1sen!2sbd!4v1752807356235!5m2!1sen!2sbd"
+                width="700"
+                height="450"
+                 style={{ border: 0 }}
+                allowfullscreen=""
                 loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
+                referrerpolicy="no-referrer-when-downgrade"
               ></iframe>
+
+
             </div>
+
             <div className="right w-[536px] bg-white pt-[81px] pb-[88px] pl-[85px]">
               <h3 className="font-primary font-bold text-[20px] leading-[120%] text-[#464558]">
                 Contact with us
