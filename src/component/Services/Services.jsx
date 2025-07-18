@@ -64,11 +64,12 @@ const Services = () => {
                             <img src={item.img} alt="" className='mx-auto' />
                             <h2 className='font-primary font-extrabold text-[25px] leading-[100%] pt-[29px] pb-8 text-center'>{item.title}</h2>
                             <p className='font-primary text-base leading-[145%] text-[#7B7A8B] pb-[25px]'>{item.text}</p>
-                            
+
                             {
                                 item.ul.map((index,idx)=>(
+                                  
                                     <div key={idx} className='flex items-center gap-x-[10px] '>
-                                        <div className='w-[7px] h-[7px] rounded-full bg-primary'></div>
+                                        <div className='w-[7px] h-[7px] rounded-full bg-orange-400'></div>
                                         <div className='font-primary text-base leading-[120%] text-[#7B7A8B] py-2'>{index}</div>
                                     </div>
                                 ))
