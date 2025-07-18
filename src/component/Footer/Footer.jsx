@@ -50,7 +50,7 @@ const Footer = () => {
           </p>
           <p className="font-primary font-medium text-[13px] leading-[100%] text-[#DBDBE9]">
             Made with heart by{" "}
-            <span className="font-extrabold text-primary">ThemeWagon</span>
+            <span className="font-extrabold text-orange-400">ThemeWagon</span>
           </p>
         </div>
       </div>

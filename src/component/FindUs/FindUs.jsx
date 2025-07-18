@@ -14,7 +14,7 @@ const FindUs = () => {
       <div className="bg-section pb-[183px]">
         <Containner>
           <div className="text-center">
-            <h1 className="font-secondery font-bold text-[31px] leading-[100%] text-primary">
+            <h1 className="font-secondery font-bold text-[31px] leading-[100%] text-orange-400">
               FIND US
             </h1>
             <h2 className="font-primary font-extrabold text-[49px] leading-[100%] pt-[11px] pb-[86px]">
